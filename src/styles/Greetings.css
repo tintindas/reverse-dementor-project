@@ -1,0 +1,40 @@
+.container {
+  margin-top: -20px;
+}
+
+p {
+  font-size: 2rem;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.05em; /* Adjust as needed */
+}
+
+.first {
+  animation: typing 2s steps(60, end);
+}
+
+.second {
+  animation: typing-two 4s steps(60, end);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-two {
+  0% {
+    width: 0;
+  }
+  40% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

@@ -1,0 +1,57 @@
+img {
+  object-fit: cover;
+  height: 400px;
+  width: 500px;
+}
+
+.grid {
+  margin: 0 5vw;
+  margin-top: 7vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3vw;
+}
+
+.card {
+  font-size: 1.8rem;
+  align-self: center;
+  min-height: 150px;
+  border-radius: 5px;
+  background-color: rgb(247, 242, 242);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  box-shadow: rgba(89, 197, 147, 0.3) 5px 5px;
+}
+
+.card span {
+  margin: 0 10px;
+}
+
+.card-green {
+  border-top: rgb(37, 228, 133) 5px solid;
+  animation: fadein 4500ms;
+}
+
+.card-yellow {
+  border-top: rgba(240, 226, 28, 0.842) 5px solid;
+  animation: fadein 6700ms;
+}
+
+.card-blue {
+  border-top: rgba(28, 173, 240, 0.842) 5px solid;
+  animation: fadein 5700ms;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
