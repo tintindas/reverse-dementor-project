@@ -1,0 +1,111 @@
+.Happy {
+  background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  min-height: 100vh;
+  background-size: cover;
+  padding: 40px 30px;
+}
+
+.happyGrid {
+  margin: 0;
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  row-gap: 30px;
+}
+
+.happyGrid div {
+  background-color: white;
+  min-height: 100%;
+  border-radius: 10px;
+  box-shadow: rgb(4, 22, 49, 0.4) 5px 5px;
+}
+
+.dog {
+  grid-row: 1/7;
+}
+
+.joke {
+  grid-row: 5/7;
+}
+
+.playlist {
+  grid-row: 1/5;
+}
+
+/* DOG */
+
+img {
+  margin-top: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+button {
+  margin-top: 30px;
+  padding: 5px 15px;
+  font-size: 1.3rem;
+  color: white;
+  background-color: rgb(41, 185, 185);
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(30, 75, 75, 0.2) 3px 3px;
+  cursor: pointer;
+  transition: box-shadow 100ms, background-color 100ms;
+}
+
+button:hover {
+  box-shadow: rgba(30, 75, 75, 0.2) 4px 4px;
+  background-color: rgb(49, 201, 201);
+  transform: translate(-2px, -2px);
+}
+
+button:active {
+  background-color: rgb(35, 95, 95);
+  box-shadow: rgba(30, 75, 75, 0.2) 2px 2px;
+  transform: translate(2px, 2px);
+}
+
+/* PLAYLIST */
+
+.Happy .playlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Happy .playlist h2 {
+  margin-top: -20px;
+}
+
+.Happy .playlist iframe {
+  margin-top: -20px;
+  border-radius: 10px;
+}
+
+/* JOKE */
+
+.Happy .joke {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+}
+
+.Happy .joke div {
+  font-size: 1rem;
+  width: 60%;
+  box-shadow: none;
+  text-align: left;
+  margin: 0 30px;
+}
+
+.Happy .joke button {
+  width: 200px;
+  padding: 10px 0;
+  margin-top: 0;
+  margin-right: 30px;
+  font-size: 1.1rem;
+}

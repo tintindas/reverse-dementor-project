@@ -4,6 +4,12 @@ img {
   width: 500px;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 475px;
+  width: 475px;
+}
+
 .grid {
   margin: 0 5vw;
   margin-top: 7vh;
@@ -23,6 +29,8 @@ img {
   justify-content: center;
   box-sizing: border-box;
   box-shadow: rgba(89, 197, 147, 0.3) 5px 5px;
+  text-decoration: black;
+  color: black;
 }
 
 .card span {
