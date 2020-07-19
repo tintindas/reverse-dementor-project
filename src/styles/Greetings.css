@@ -1,8 +1,8 @@
-.container {
+.Greetings {
   margin-top: -20px;
 }
 
-p {
+.Greetings p {
   font-size: 2rem;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -10,11 +10,11 @@ p {
   letter-spacing: 0.05em; /* Adjust as needed */
 }
 
-.first {
+.Greetings .first {
   animation: typing 2s steps(60, end);
 }
 
-.second {
+.Greetings .second {
   animation: typing-two 4s steps(60, end);
 }
 
@@ -36,5 +36,11 @@ p {
   }
   100% {
     width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Greetings {
+    margin-top: 0;
   }
 }

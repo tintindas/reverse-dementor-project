@@ -5,46 +5,60 @@
   padding: 40px 30px;
 }
 
-.happyGrid {
+.Happy .happyGrid {
   margin: 0;
-  min-height: 90vh;
+  height: 80vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   gap: 30px;
-  row-gap: 30px;
+  row-gap: 0;
 }
 
-.happyGrid div {
+.Happy .happyGrid div {
   background-color: white;
-  min-height: 100%;
   border-radius: 10px;
   box-shadow: rgb(4, 22, 49, 0.4) 5px 5px;
 }
 
-.dog {
+.Happy .dog {
   grid-row: 1/7;
+  animation: fadein 1s;
 }
 
-.joke {
+.Happy .joke {
   grid-row: 5/7;
+  height: 150px;
+  align-self: end;
 }
 
-.playlist {
+.Happy .playlist {
   grid-row: 1/5;
+  height: 450px;
+  align-self: start;
+  animation: fadein 1s;
 }
 
 /* DOG */
 
-img {
+.Happy img {
+  height: 400px;
+  width: 450px;
   margin-top: 10px;
   border-radius: 10px;
   object-fit: cover;
+  font-size: 0;
+  animation: fadein 3s;
 }
 
-button {
+.Happy .dog h1 {
+  animation: fadein 2s;
+}
+
+.Happy button {
   margin-top: 30px;
+  margin-bottom: 20px;
   padding: 5px 15px;
   font-size: 1.3rem;
   color: white;
@@ -54,15 +68,16 @@ button {
   box-shadow: rgba(30, 75, 75, 0.2) 3px 3px;
   cursor: pointer;
   transition: box-shadow 100ms, background-color 100ms;
+  animation: fadein 4s;
 }
 
-button:hover {
+.Happy button:hover {
   box-shadow: rgba(30, 75, 75, 0.2) 4px 4px;
   background-color: rgb(49, 201, 201);
   transform: translate(-2px, -2px);
 }
 
-button:active {
+.Happy button:active {
   background-color: rgb(35, 95, 95);
   box-shadow: rgba(30, 75, 75, 0.2) 2px 2px;
   transform: translate(2px, 2px);
@@ -75,15 +90,18 @@ button:active {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  animation: fadein 5s;
 }
 
 .Happy .playlist h2 {
   margin-top: -20px;
+  animation: fadein 6s;
 }
 
 .Happy .playlist iframe {
   margin-top: -20px;
   border-radius: 10px;
+  animation: fadein 7s;
 }
 
 /* JOKE */
@@ -92,6 +110,7 @@ button:active {
   display: flex;
   max-width: 100%;
   align-items: center;
+  animation: fadein 8s;
 }
 
 .Happy .joke div {
@@ -100,6 +119,7 @@ button:active {
   box-shadow: none;
   text-align: left;
   margin: 0 30px;
+  animation: fadein 9s;
 }
 
 .Happy .joke button {
@@ -108,4 +128,72 @@ button:active {
   margin-top: 0;
   margin-right: 30px;
   font-size: 1.1rem;
+  margin-bottom: 0;
+  animation: fadein 10s;
+}
+
+@media (max-width: 1000px) {
+  .Happy {
+    background-image: url("https://images.unsplash.com/photo-1583771261969-5d7b7f719c6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-size: contain;
+  }
+  .Happy .happyGrid {
+    display: flex;
+    flex-direction: column;
+    margin: 500px 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Happy button {
+    font-size: 2rem;
+    padding: 20px 50px;
+  }
+
+  .Happy img {
+    height: 800px;
+    width: 90%;
+  }
+
+  .Happy .happyGrid div {
+    width: 80vw;
+  }
+
+  .Happy .happyGrid .dog {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .Happy .happyGrid .playlist {
+    margin-bottom: 50px;
+    align-self: center;
+    justify-self: center;
+    height: 1200px;
+  }
+
+  .Happy .playlist h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+    margin-bottom: 70px;
+  }
+
+  .Happy .playlist iframe {
+    height: 700px;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+  .Happy .joke {
+    align-self: center;
+    justify-self: center;
+    height: 600px;
+  }
+
+  .Happy .joke div {
+    font-size: 1.7rem;
+  }
+
+  .Happy .joke button {
+    border-radius: 90%;
+  }
 }

@@ -3,7 +3,7 @@ import "../styles/Greetings.css";
 
 const Greeting = () => {
   return (
-    <div className='container'>
+    <div className='Greetings'>
       <p className='first'>
         Hey there, Little Panda Bear{" "}
         <span role='img' aria-label='heart emoji'>

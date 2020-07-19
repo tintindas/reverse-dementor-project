@@ -1,16 +1,17 @@
-img {
+.Home img {
   object-fit: cover;
   height: 400px;
   width: 500px;
+  font-size: 0;
 }
 
-.hidden {
+.Home .hidden {
   visibility: hidden;
   height: 475px;
   width: 475px;
 }
 
-.grid {
+.Home .grid {
   margin: 0 5vw;
   margin-top: 7vh;
   display: grid;
@@ -18,7 +19,7 @@ img {
   gap: 3vw;
 }
 
-.card {
+.Home .card {
   font-size: 1.8rem;
   align-self: center;
   min-height: 150px;
@@ -33,21 +34,21 @@ img {
   color: black;
 }
 
-.card span {
+.Home .card span {
   margin: 0 10px;
 }
 
-.card-green {
+.Home .card-green {
   border-top: rgb(37, 228, 133) 5px solid;
   animation: fadein 4500ms;
 }
 
-.card-yellow {
+.Home .card-yellow {
   border-top: rgba(240, 226, 28, 0.842) 5px solid;
   animation: fadein 6700ms;
 }
 
-.card-blue {
+.Home .card-blue {
   border-top: rgba(28, 173, 240, 0.842) 5px solid;
   animation: fadein 5700ms;
 }
@@ -61,5 +62,23 @@ img {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Home {
+    overflow: hidden;
+  }
+  .Home .grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(220px, auto);
+  }
+
+  .Home img {
+    height: 800px;
+  }
+
+  .Home .card {
+    height: 100%;
   }
 }

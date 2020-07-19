@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "../styles/Happy.css";
+import newton from "../assets/newton.jpg";
 
 const Happy = () => {
-  const [dogPic, setDogPic] = useState(
-    "https://images.dog.ceo/breeds/sheepdog-english/n02105641_6664.jpg"
-  );
+  const [dogPic, setDogPic] = useState(newton);
 
   const getNewDog = async () => {
     const res = await fetch("https://dog.ceo/api/breeds/image/random");
@@ -15,7 +14,7 @@ const Happy = () => {
   };
 
   const [joke, setJoke] = useState(
-    "The number of vampires in the average home, is directly proportional to the amount of garlic bread in the fridge."
+    "The number of vampires in the average home, is inversely proportional to the amount of garlic bread in the fridge."
   );
 
   const getNewJoke = async () => {
