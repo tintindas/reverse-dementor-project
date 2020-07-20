@@ -19,8 +19,6 @@ Uses React.
 - [Cat Facts](https://cat-fact.herokuapp.com/)
 - [Dad Jokes](https://icanhazdadjoke.com/api)
 
-Absolutely stoked that so many people have put up free resources for people like me to build with.
-
 [List of Public APIs](https://github.com/public-apis/public-apis)
 
 ## Link to Site
