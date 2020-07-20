@@ -195,5 +195,6 @@
 
   .Happy .joke button {
     border-radius: 90%;
+    padding: 20px 10px;
   }
 }

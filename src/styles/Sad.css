@@ -1,5 +1,5 @@
 .Sad {
-  background-image: linear-gradient(90deg, #f8ccec 20%, #5b4197 90%);
+  background-image: linear-gradient(150deg, #f8ccec 20%, #5b4197 90%);
   min-height: 100vh;
   padding: 30px;
 }
@@ -17,6 +17,7 @@
   height: 90vh;
   border-radius: 10px;
   padding: 10px;
+  animation: fadein 1s;
 }
 
 .Sad .pushdown {
@@ -35,7 +36,7 @@
   transition: background-color 100ms, box-shadow 100ms;
   color: white;
   cursor: pointer;
-  animation: fadein 3s;
+  animation: fadein 5s;
 }
 
 .Sad button:hover {
@@ -76,12 +77,15 @@
   object-fit: cover;
   transition: visibility 100ms;
   font-size: 0;
+  animation: fadein 3s;
 }
 
 .Sad .fact {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
   width: 400px;
   margin-right: -20px;
-  animation: fadein 2000ms;
+  animation: fadein 0.5s;
 }
 
 .Sad .fact .text {
@@ -93,15 +97,20 @@
   height: 90vh;
   border-radius: 10px;
   padding: 10px;
-  transition: width 2s;
+  animation: fadein 2s;
+}
+
+.Sad .right button {
+  animation: fadein 6s;
 }
 
 .Sad .right iframe {
   border-radius: 10px;
+  animation: fadein 4s;
 }
 
 .Sad .right .pug {
-  animation: fadein 1s;
+  animation: fadein 0.5s;
 }
 
 .Sad .hidden-visibility {
@@ -121,5 +130,87 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Sad {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .Sad button {
+    height: auto;
+    font-size: 1.5rem;
+  }
+  .Sad .grid {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    padding: 0;
+  }
+  .Sad .grid .left {
+    margin-top: 5vh;
+    box-sizing: content-box;
+    padding: 80px 0;
+    height: 35vh;
+    width: 90%;
+  }
+  .Sad .grid .left img {
+    width: 90%;
+    height: 600px;
+  }
+  .Sad .grid .left button {
+    margin: 50px 0;
+  }
+  .Sad .grid .left .fact {
+    margin: 0;
+    margin-top: 100px;
+    font-size: 1.5rem;
+    align-self: center;
+    width: 80vw;
+  }
+  .Sad .grid .left .fact .text {
+    width: 80vw;
+  }
+  .Sad .grid .right {
+    padding-top: 100px;
+    box-sizing: border-box;
+    height: auto;
+    width: 90%;
+  }
+  .Sad .grid .right iframe {
+    width: 90%;
+  }
+  .Sad .grid .right button {
+    margin-bottom: 40px;
+  }
+  .Sad .grid .expand {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-evenly;
+  }
+  .Sad .grid .expand img {
+    height: 40vh;
+    width: 80vw;
+  }
+  .Sad .grid .expand .cat button {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .Sad .grid .expand-right {
+    margin-top: 200px;
+  }
+  .Sad .grid .expand-right .pug {
+    margin-top: 100px;
+  }
+  .Sad .grid .expand-right .pug button {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .Sad .grid .expand-right iframe {
+    margin-top: 100px;
+    width: 80vw;
   }
 }
