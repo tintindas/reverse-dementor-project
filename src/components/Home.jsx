@@ -18,6 +18,7 @@ const Home = () => {
         src={panda}
         className={imgLoaded ? "" : "hidden"}
         alt='cartoon panda eating ramen'
+        loading='lazy'
       />
       <Greeting />
       <div className='grid'>

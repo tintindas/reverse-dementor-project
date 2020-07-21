@@ -51,7 +51,7 @@ const Sad = () => {
           }`}
         >
           <div className='cat'>
-            <img src={cat} alt='cat' />
+            <img src={cat} alt='cat' loading='lazy' />
             <br />
             <button
               className={mood === 0 ? "pushdown" : ""}
@@ -78,7 +78,7 @@ const Sad = () => {
         >
           {mood === -1 ? (
             <div className='pug'>
-              <img src={pug} alt='pug' />
+              <img src={pug} alt='pug' loading='lazy' />
               <br />
               <button onClick={getMorePugs}>Cute pugs</button>
             </div>
@@ -95,6 +95,7 @@ const Sad = () => {
               allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
               allowFullScreen
               title='sed :('
+              loading='lazy'
             ></iframe>{" "}
             <br />
             <button

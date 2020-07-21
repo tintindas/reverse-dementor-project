@@ -35,7 +35,7 @@ const Happy = () => {
       <div className='happyGrid'>
         <div className='dog'>
           <h1>Here's a free Doggo with your happy meal</h1>
-          <img src={dogPic} alt='dog' />
+          <img src={dogPic} alt='dog' loading='lazy' />
           <br />
           <button onClick={getNewDog}>Show me more puppies</button>
         </div>
@@ -50,6 +50,7 @@ const Happy = () => {
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen
             title='happy puppy playlist'
+            loading='lazy'
           ></iframe>
         </div>
 
