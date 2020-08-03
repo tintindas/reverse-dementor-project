@@ -4,6 +4,38 @@
   padding: 30px;
 }
 
+.Sad .picfade-enter {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.Sad .picfade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1000ms linear, transform 1000ms linear;
+}
+
+.Sad .picfade-enter-done {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.Sad .picfade-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.Sad .picfade-exit-active {
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 1000ms linear, transform 1000ms linear;
+}
+
+.Sad .picfade-exit-done {
+  opacity: 0;
+  transform: scale(0);
+}
+
 .Sad .grid {
   margin: 0;
   display: grid;
@@ -70,6 +102,10 @@
   display: none;
 }
 
+.Sad .cat .cat-animate img {
+  animation: fadein 0.1s;
+}
+
 .Sad img {
   border-radius: 10px;
   height: 400px;
@@ -85,7 +121,7 @@
   padding: 10px;
   width: 400px;
   margin-right: -20px;
-  animation: fadein 0.5s;
+  animation: fadein 1s;
 }
 
 .Sad .fact .text {
@@ -110,7 +146,15 @@
 }
 
 .Sad .right .pug {
-  animation: fadein 0.5s;
+  animation: fadein 100ms;
+}
+
+.Sad .right .pug img {
+  animation: fadein 1s;
+}
+
+.Sad .right .pug button {
+  animation: fadein 2s;
 }
 
 .Sad .hidden-visibility {

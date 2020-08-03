@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Happy.css";
 import newton from "../assets/newton.jpg";
+import { SwitchTransition, CSSTransition } from "react-transition-group";
 
 const Happy = () => {
   const [dogPic, setDogPic] = useState(newton);
@@ -35,7 +36,11 @@ const Happy = () => {
       <div className='happyGrid'>
         <div className='dog'>
           <h1>Here's a free Doggo with your happy meal</h1>
-          <img src={dogPic} alt='dog' loading='lazy' />
+          <SwitchTransition>
+            <CSSTransition key={dogPic} timeout={1000} classNames='picfade'>
+              <img src={dogPic} alt='dog' loading='lazy' />
+            </CSSTransition>
+          </SwitchTransition>
           <br />
           <button onClick={getNewDog}>Show me more puppies</button>
         </div>

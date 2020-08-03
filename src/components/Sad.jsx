@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Sad.css";
+import { SwitchTransition, CSSTransition } from "react-transition-group";
 
 const Sad = () => {
   const [mood, setMood] = useState(0);
@@ -50,8 +51,12 @@ const Sad = () => {
             mood === -1 ? "hidden" : ""
           }`}
         >
-          <div className='cat'>
-            <img src={cat} alt='cat' loading='lazy' />
+          <div className={`cat ${mood === 1 ? "cat-animate" : ""}`}>
+            <SwitchTransition>
+              <CSSTransition key={cat} timeout={1000} classNames='picfade'>
+                <img src={cat} alt='cat' loading='lazy' />
+              </CSSTransition>
+            </SwitchTransition>
             <br />
             <button
               className={mood === 0 ? "pushdown" : ""}
@@ -78,7 +83,11 @@ const Sad = () => {
         >
           {mood === -1 ? (
             <div className='pug'>
-              <img src={pug} alt='pug' loading='lazy' />
+              <SwitchTransition>
+                <CSSTransition key={pug} timeout={1000} classNames='picfade'>
+                  <img src={pug} alt='pug' loading='lazy' />
+                </CSSTransition>
+              </SwitchTransition>
               <br />
               <button onClick={getMorePugs}>Cute pugs</button>
             </div>
