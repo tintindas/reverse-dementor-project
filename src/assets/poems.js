@@ -1463,41 +1463,398 @@ const poems = [
         myself. And the birds. And you. And one or two others.
         `,
   },
-  // {
-  //   title: ``,
-  //   poet: ``,
-  //   text: ``,
-  // },
-  // {
-  //   title: ``,
-  //   poet: ``,
-  //   text: ``,
-  // },
-  // {
-  //   title: ``,
-  //   poet: ``,
-  //   text: ``,
-  // },
-  // {
-  //   title: ``,
-  //   poet: ``,
-  //   text: ``,
-  // },
-  // {
-  //   title: ``,
-  //   poet: ``,
-  //   text: ``,
-  // },
-  // {
-  //   title: ``,
-  //   poet: ``,
-  //   text: ``,
-  // },
-  // {
-  //   title: ``,
-  //   poet: ``,
-  //   text: ``,
-  // },
+  {
+    title: `Motto`,
+    poet: `Bertolt Brecht`,
+    text: `In the dark times,
+    will there also be singing?
+    Yes, there will be singing
+    about the dark times.
+    `,
+  },
+  {
+    title: `The Day You Looked Upon Me as a Stranger `,
+    poet: `Jeffrey Harrison`,
+    text: `I had left you at the gate to buy a newspaper
+    and on my way back stopped at a bank of monitors
+    to check the status of our flight to London.
+    
+    That was when you noticed a middle-aged man
+    in a brown jacket and the green short-brimmed cap
+    I’d bought for the trip. It wasn’t until I turned
+    
+    and walked toward you that you saw him as me.
+    What a nice-looking man, you told me you’d thought—
+    maybe European, with that unusual cap …
+    
+    somebody, you said, you might want to meet.
+    We both laughed. And it aroused my vanity
+    that you had been attracted to me afresh,
+    
+    with no baggage. A kind of affirmation.
+    But doubt seeped into that crevice of time
+    when you had looked upon me as a stranger,
+    
+    and I wondered if you’d pictured him
+    as someone more intriguing than I could be
+    after decades of marriage, all my foibles known.
+    
+    Did you have one of those under-the-radar daydreams
+    of meeting him, hitting it off, and getting
+    on a plane together? In those few moments,
+    
+    did you imagine a whole life with him?
+    And were you disappointed, or glad, to find
+    it was only the life you already had?
+    `,
+  },
+  {
+    title: `All I know about Love`,
+    poet: `Neil Gaiman`,
+    text: `This is everything I have to tell you about love: nothing.
+    This is everything I’ve learned about marriage: nothing.
+    Only that the world out there is complicated,
+    and there are beasts in the night, and delight and pain,
+    and the only thing that makes it okay, sometimes,
+    is to reach out a hand in the darkness and find another
+    hand to squeeze,
+    and not to be alone.
+    It’s not the kisses, or never just the kisses: it’s what they mean.
+    Somebody’s got your back.
+    Somebody knows your worst self and somehow doesn’t want to rescue you
+    or send for the army to rescue them.
+    It’s not two broken halves becoming one.
+    It’s the light from a distant lighthouse bringing you both safely home
+    because home is wherever you are both together.
+    So this is everything I have to tell you about love and marriage: nothing,
+    like a book without pages or a forest without trees.
+    Because there are things you cannot know before you experience them.
+    Because no study can prepare you for the joys or the trials.
+    Because nobody else’s love, nobody else’s marriage, is like yours,
+    and it’s a road you can only learn by walking it,
+    a dance you cannot be taught,
+    a song that did not exist before you began, together, to sing.
+    And because in the darkness you will reach out a hand,
+    not knowing for certain if someone else is even there.
+    And your hands will meet,
+    and then neither of you will ever need to be alone again.
+     
+    And that’s all I know about love.
+    `,
+  },
+  {
+    title: `This Be The Verse`,
+    poet: `Philip Larkin`,
+    text: `They fuck you up, your mum and dad.   
+    They may not mean to, but they do.   
+They fill you with the faults they had
+    And add some extra, just for you.
+
+But they were fucked up in their turn
+    By fools in old-style hats and coats,   
+Who half the time were soppy-stern
+    And half at one another’s throats.
+
+Man hands on misery to man.
+    It deepens like a coastal shelf.
+Get out as early as you can,
+    And don’t have any kids yourself.
+`,
+  },
+  {
+    title: `A Drink of Water`,
+    poet: `Jeffrey Harrison`,
+    text: `When my nineteen-year-old son turns on the kitchen tap
+    and leans down over the sink and tilts his head sideways
+    to drink directly from the stream of cool water,
+    I think of my older brother, now almost ten years gone,
+    who used to do the same thing at that age;
+    
+    and when he lifts his head back up and, satisfied,
+    wipes the water dripping from his cheek
+    with his shirtsleeve, it’s the same casual gesture
+    my brother used to make; and I don’t tell him
+    to use a glass, the way our father told my brother,
+    
+    because I like remembering my brother
+    when he was young, decades before anything
+    went wrong, and I like the way my son
+    becomes a little more my brother for a moment
+    through this small habit born of a simple need,
+    
+    which, natural and unprompted, ties them together
+    across the bounds of death, and across time …
+    as if the clear stream flowed between two worlds
+    and entered this one through the kitchen faucet,
+    my son and brother drinking the same water.
+    `,
+  },
+  {
+    title: `Maybe All This`,
+    poet: `Wislawa Szymborska`,
+    text: `Maybe all this
+    is happening in some lab?
+    Under one lamp by day
+    and billions by night?
+    
+    Maybe we're experimental generations?
+    Poured from one vial to the next,
+    shaken in test tubes,
+    not scrutinized by eyes alone,
+    each of us separately
+    plucked up by tweezers in the end?
+    
+    Or maybe it's more like this:
+    No interference?
+    The changes occur on their own
+    according to plan?
+    The graph's needle slowly etches
+    its predictable zigzags?
+    
+    Maybe thus far we aren't of much interest?
+    The control monitors aren't usually plugged in?
+    Only for wars, preferably large ones,
+    for the odd ascent above our clump of Earth,
+    for major migrations from point A to B?
+    
+    Maybe just the opposite:
+    They've got a taste for trivia up there?
+    Look! on the big screen a little girl
+    is sewing a button on her sleeve.
+    The radar shrieks,
+    the staff comes at a run.
+    What a darling little being
+    with its tiny heart beating inside it!
+    How sweet, its solemn
+    threading of the needle!
+    Someone cries enraptured:
+    Get the Boss,
+    tell him he's got to see this for himself!
+    `,
+  },
+  {
+    title: `The First Straw`,
+    poet: `Jeffrey McDaniel`,
+    text: `I used to think love was two people sucking
+    on the same straw to see whose thirst was stronger,
+    
+    but then I whiffed the crushed walnuts of your nape,
+    traced jackals in the snow-covered tombstones of your teeth.
+    
+    I used to think love was a non-stop saxophone solo
+    in the lungs, till I hung with you like a pair of sneakers
+    
+    from a phone line, and you promised to always smell
+    the rose in my kerosene. I used to think love was terminal
+    
+    pelvic ballet, till you let me jog beside while you pedaled
+    all over hell on the menstrual bicycle, your tongue
+    
+    ripping through my prairie like a tornado of paper cuts.
+    I used to think love was an old man smashing a mirror
+    
+    over his knee, till you helped me carry the barbell
+    of my spirit back up the stairs after my car pirouetted
+    
+    in the desert. You are my history book. I used to not believe
+    in fairy tales till I played the dunce in sheep’s clothing
+    
+    and felt how perfectly your foot fit in the glass slipper
+    of my ass. But then duty wrapped its phone cord
+    
+    around my ankle and yanked me across the continent.
+    And now there are three thousand miles between the u
+    
+    and s in esophagus. And being without you is like standing
+    at a cement-filled wall with a roll of Yugoslavian nickels
+    
+    and making a wish. Some days I miss you so much
+    I’d jump off the roof of your office building
+    
+    just to catch a glimpse of you on the way down. I wish
+    we could trade left eyeballs, so we could always see
+    
+    what the other sees. But you’re here, I’m there,
+    and we have only words, a nightly phone call - one chance
+    
+    to mix feelings into syllables and pour into the receiver,
+    hope they don’t disassemble in that calculus of wire.
+    `,
+  },
+  {
+    title: `The Couple Next Door`,
+    poet: `Kim Dower`,
+    text: `The couple next door reads all day long.
+    I can see them from our adjoining hotel patios
+    high above the sea.
+    
+    The couple next door sits
+    at a round white plastic table on hard chairs,
+    their books touching as they
+    
+    turn their pages at the same time.
+    I listen for any sounds they might make:
+    soft cough, sigh of joy,
+    
+    I hear nothing except for southbound traffic
+    on Pacific Coast Highway, distant
+    waves, morning sounds of housekeepers
+    
+    cleaning the grounds below our deck.
+    The man’s book looks fat; I see him
+    thick glasses brand new cap
+    
+    staring intently into the page,
+    I never see him smile so I know the book is not funny.
+    I never see him shake his head so I know the book does not
+    
+    confuse him, but he suddenly lifts his head
+    looks out at the ocean, puts his hand over his mouth.
+    The woman looks content like her book understands her:
+    
+    it’s about something she knows too well––
+    bringing up children, watching them grow,
+    saying goodbye.
+    
+    I brought books too but prefer watching them:
+    wonder how they arrived at this place
+    where reading in silence carries them through the day.
+    `,
+  },
+  {
+    title: `It was like this: you were happy`,
+    poet: `Jane Hirshfield`,
+    text: `It was like this:
+    you were happy, then you were sad,
+    then happy again, then not.
+    
+    It went on.
+    You were innocent or you were guilty.
+    Actions were taken, or not.
+    
+    At times you spoke, at other times you were silent.
+    Mostly, it seems you were silent – what could you say?
+    
+    Now it is almost over.
+    
+    Like a lover, your life bends down and kisses your life.
+    
+    It does this not in forgiveness –
+    between you, there is nothing to forgive –
+    but with the simple nod of a baker at the moment
+    he sees the bread is finished with transformation.
+    
+    Eating, too, is a thing now only for others.
+    
+    It doesn’t matter what they will make of you
+    or your days: they will be wrong,
+    they will miss the wrong woman, miss the wrong man,
+    all the stories they tell will be tales of their own invention.
+    
+    Your story was this: you were happy, then you were sad,
+    you slept, you awakened.
+    Sometimes you ate roasted chestnuts, sometimes persimmons.
+    `,
+  },
+  {
+    title: `Apartment Living`,
+    poet: `Meghan O’Rourke`,
+    text: `So those despotic loves have become known to you,
+    rubbing cold hands up your thighs, leaving oily trails,
+    whispering, Just how you like it, right?
+    Upstairs the sorority girls are playing charades
+    again, smoking cigarettes, wearing shifts, burning
+    pain into their synapses.
+    Life is a needle. And now it pricks you:
+    the silver light in which you realize
+    your attempts at decadence
+    tire the earth and tire you. The etymology
+    of “flag” as in “to signal to stop”
+    is unknown. It is time to sit and watch. Don’t
+    call that one again, he’s pitiless in his self-certainty.
+    You used to be so.
+    You laid your black dress on the bed.
+    You stepped in your heels over sidewalk cracks.
+    You licked mint and sugar from the cocktail mixer,
+    singing nonsense songs,
+    and the strangers, they sang along.
+    `,
+  },
+  {
+    title: `Things`,
+    poet: `Lisel Mueller`,
+    text: `What happened is, we grew lonely
+    living among the things,
+    so we gave the clock a face,
+    the chair a back,
+    the table four stout legs
+    which will never suffer fatigue.
+    
+    We fitted our shoes with tongues
+    as smooth as our own
+    and hung tongues inside bells
+    so we could listen
+    to their emotional language,
+    
+    and because we loved graceful profiles
+    the pitcher received a lip,
+    the bottle a long, slender neck.
+    
+    Even what was beyond us
+    was recast in our image;
+    we gave the country a heart,
+    the storm an eye,
+    the cave a mouth
+    so we could pass into safety.
+    `,
+  },
+  {
+    title: `Art Is a Facebook Status About Your Winter Break`,
+    poet: `B.E. Fitzgerald`,
+    text: `I swear to every heaven ever imagined,
+    if I hear one more dead-eyed hipster
+    tell me that art is dead, I will personally summon Shakespeare
+    from the grave so he can tell them every reason
+    why he wishes he were born in a time where
+    he could have a damn Gmail account.
+    The day after I taught my mother
+    how to send pictures over Iphone she texted
+    me a blurry image of our cocker spaniel ten times in a row.
+    Don’t you dare try to tell me that that is not beautiful.
+    But whatever, go ahead and choose to stay in
+    your backwards-hoping-all-inclusive club
+    while the rest of us fall in love over Skype.
+    Send angry letters to state representatives,
+    as we record the year’s first sunrise so
+    we can remember what beginning feels like when
+    we are inches away from the trigger.
+    Lock yourself away in your Antoinette castle
+    while you eat cake and tweet to the whole universe that we did.
+    Hashtag you’re a pretentious asshole.
+    Van Gogh would have taken 20 selfies a day.
+    Sylvia Plath would have texted her lovers
+    nothing but heart eyed emojis when she ran out of words.
+    Andy Warhol would have had the world’s weirdest Vine account,
+    and we all would have checked it every morning while we
+    Snap Chat our coffee orders to the people
+    we wish were pressed against our lips instead of lattes.
+    This life is spilling over with 85 year olds
+    rewatching JFK’s assassination and
+    7 year olds teaching themselves guitar over YouTube videos.
+    Never again do I have to be afraid of forgetting
+    what my father’s voice sounds like.
+    No longer must we sneak into our families phonebook
+    to look up an eating disorder hotline for our best friend.
+    No more must I wonder what people in Australia sound like
+    or how grasshoppers procreate.
+    I will gleefully continue to take pictures of tulips
+    in public parks on my cellphone
+    and you will continue to scoff and that is okay.
+    But I hope, I pray, that one day you will realize how blessed
+    you are to be alive in a moment where you can google search
+    how to say I love you in 164 different languages.
+    `,
+  },
 ];
 
 export default poems;
